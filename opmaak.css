@@ -48,9 +48,9 @@ body {
   }
   
   li a:hover:not(.active) {
-    background-color: rgb(6, 246, 250);
+    background-color: rgb(6, 148, 250);
   }
   
   .active {
-    background-color: #04fafa;
+    background-color: #04b8fa;
   }
