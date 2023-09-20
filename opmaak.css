@@ -1,9 +1,9 @@
 ody {
-  background-color: green;
+  background-color:Beige;
   }
   /*Hiermee geef ik de achtergrond kleur van mijn website aan*/
   h1 {
-    color: white;
+    color: Black;
     text-align: center;
     text-decoration-line: underline;
   }
@@ -25,7 +25,7 @@ ody {
   }
   /*Hiermee geef ik de lay-out van mijn menu aan, knopkleur, tekstkleur, grootte, tekstplek*/
   a:hover, a:active {
-    background-color:rgb(5, 111, 249);
+    background-color:rgb(165, 42, 42);
   }
   /*Hiermee geef ik de achtergrondkleur van mijn menu aan*/
 
