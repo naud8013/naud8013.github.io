@@ -1,4 +1,4 @@
-ody {
+Body {
   background-color:Aquamarine;
   }
   /*Hiermee geef ik de achtergrond kleur van mijn website aan*/
@@ -25,7 +25,7 @@ ody {
   }
   /*Hiermee geef ik de lay-out van mijn menu aan, knopkleur, tekstkleur, grootte, tekstplek*/
   a:hover, a:active {
-    background-color:rgb(165, 42, 42);
+    background-color:rgb(0, 0, 205);
   }
   /*Hiermee geef ik de achtergrondkleur van mijn menu aan*/
 
@@ -33,7 +33,7 @@ ody {
   /*Hiermee geef ik aan dat mijn menuknoppen links aan elkaar staan*/
 
   .footer {
-    background-color:rgb(5, 111, 249);
+    background-color:rgb(0, 0, 205);
     padding: 3px;
     color: white;
     text-align: center;
