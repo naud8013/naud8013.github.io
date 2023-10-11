@@ -100,7 +100,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #F0F8FF;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -124,7 +124,7 @@ body {
 }
 </style>
 </head>
-<body style="background-color:white;">
+<body style="background-color:AliceBlue;">
 
 <div class="navbar">
   <div class="dropdown">
