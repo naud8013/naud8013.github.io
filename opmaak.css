@@ -1,43 +1,49 @@
-/* Basisstijlen voor het gecentreerde dropdown-menu */
+/* Basic styles for the centered dropdown menu */
 .centered-dropdown {
-  text-align: center;
-  margin-top: 20vh; /* Verticale marge aanpassen aan je behoeften */
+    text-align: center;
+    margin-top: 20vh; /* Adjust vertical margin to your needs */
 }
 
-/* Stijl voor de knop die de dropdown activeert */
+/* Style for the button that activates the dropdown */
 .dropbtn {
-  background-color: #3498db;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
 }
 
-/* Stijl voor de dropdown-inhoud (onzichtbaar in eerste instantie) */
+/* Style for the dropdown content (initially hidden) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  z-index: 1;
-  text-align: left;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: left;
 }
 
-/* Stijl voor de dropdown-opties */
-.dropdown-content a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #333;
-}
-
-/* Stijl voor de dropdown-opties bij hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Laat de dropdown-inhoud zien wanneer de knop wordt aangeklikt */
+/* Style for the background around the dropdown */
 .centered-dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
+    background-color: #f9f9f9; /* Background color for the dropdown content */
+    border: 1px solid #ccc; /* Optional border for the dropdown content */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 160px;
+}
+
+/* Style for the dropdown options */
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style for the dropdown options on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
 }
