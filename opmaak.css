@@ -1,93 +1,43 @@
-Body {
-  background-color:Aquamarine;
-  }
-  /*Hiermee geef ik de achtergrond kleur van mijn website aan*/
-  h1 {
-    color: Black;
-    text-align: center;
-    text-decoration-line: underline;
-  }
-  /*Hiermee geef ik de letterkleur, plaats en een lijn onder de titel aan*/
-  p {
-    font-family: Arial;
-    font-size: medium;
-  }
-  /*Hiermee geef ik de lettertype en lettergrote aan van mijn tekst*/
-  ul
-  a:link, a:visited {
-    background-color rgb(0, 0, 205);
-    color: black;
-    padding: 14px 16px;
-    width: 215px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  /*Hiermee geef ik de lay-out van mijn menu aan, knopkleur, tekstkleur, grootte, tekstplek*/
-  a:hover, a:active {
-    background-color:rgb(205, 0, 0);
-  }
-  /*Hiermee geef ik de achtergrondkleur van mijn menu aan*/
-
-  
-  /*Hiermee geef ik aan dat mijn menuknoppen links aan elkaar staan*/
-
-  .footer {
-    background-color:rgb(255, 0, 0);
-    padding: 3px;
-    color: white;
-    text-align: center;
- }
- /*Hiermee geef ik mijn footer aan*/
-  
-  
-  li a {
-    display: block;
-    color: rgb(5, 111, 249);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  /*Hiermee geef ik de lay-out van mijn link naar een video aan*/
-
-  li a:hover:not(.active) {
-    background-color: lightskyblue;
-  }
-  /*Hiermee geef ik mijn knoppenkleur aan als je over de knop beweegt*/
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
+/* Basisstijlen voor het gecentreerde dropdown-menu */
+.centered-dropdown {
+  text-align: center;
+  margin-top: 20vh; /* Verticale marge aanpassen aan je behoeften */
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
+/* Stijl voor de knop die de dropdown activeert */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
 }
 
+/* Stijl voor de dropdown-inhoud (onzichtbaar in eerste instantie) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: left;
+}
 
-</style>
-</head>
-<body style="background-color:AliceBlue;">
+/* Stijl voor de dropdown-opties */
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
 
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div> 
-</div>
+/* Stijl voor de dropdown-opties bij hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-<h3>Dropdown Menu inside a Navigation Bar</h3>
-<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
-
-</body>
-</html>
+/* Laat de dropdown-inhoud zien wanneer de knop wordt aangeklikt */
+.centered-dropdown:hover .dropdown-content {
+  display: block;
+}
