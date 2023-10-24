@@ -96,3 +96,46 @@ a:hover {
   text-decoration: none;
   display: block;
 }
+/* Stijl voor de dropdown-container */
+.dropdown-container {
+    display: inline-block;
+    position: relative;
+}
+
+/* Stijl voor de menu-toggle (verbergt checkbox) */
+.menu-toggle {
+    display: none;
+}
+
+/* Stijl voor de dropdown-toggle-label */
+.dropdown-toggle {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Stijl voor de dropdown-list */
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+}
+
+/* Stijl voor de dropdown-content bij activering van de checkbox */
+.menu-toggle:checked + .dropdown-toggle + .dropdown-list {
+    display: block;
+}
+
+/* Stijl voor de dropdown-item */
+.dropdown-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
