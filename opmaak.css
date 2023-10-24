@@ -3,20 +3,20 @@ body, h1, h2, p, ul, li {
   padding: 0;
 }
 
-/* Achtergrond- en lettertypekleur van de site */
+/* Dit is mijn achtergrondkleur van mijn site */
 body {
   background-color: MediumBlue;
   font-family: Arial, sans-serif;
 }
 
-/* Headerstijlen */
+/* En dit is mijn lettertype kleur */
 header {
   background-color: #333;
   color: #fff;
   padding: 10px 0;
 }
 
-/* Navigatiebalkstijlen */
+/* Stijl de navigatiebalk */
 nav {
   background-color: MediumBlue;
 }
@@ -36,7 +36,7 @@ nav a {
   color: #fff;
 }
 
-/* Hoofdinhoudstijlen */
+/* Stijl de hoofdinhoud */
 .main-content {
   max-width: 800px;
   margin: 20px auto;
@@ -46,7 +46,7 @@ nav a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Koppelingsstijlen */
+/* Stijl koppelingen */
 a {
   color: white;
   text-decoration: none;
@@ -56,22 +56,23 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Knopstijlen */
+/* Stijl knoppen */
 .button {
-  display: inline-block;
-  padding: 10px 20px;
   background-color: #0077b6;
   color: #fff;
+  padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  text-decoration: none;
+  margin: 0 10px; /* Marge tussen knoppen */
+  transition: background-color 0.3s; /* Vloeiende kleurovergang bij hover */
 }
 
 .button:hover {
   background-color: #005b8a;
 }
 
-/* Dropdown-menustijlen */
+/* Dropdown-stijlen */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -94,20 +95,4 @@ a:hover {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-}
-/* Stijl voor de navigatiemenuknoppen */
-nav a.button {
-    background-color: #0077b6;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    margin: 0 10px; /* Marge tussen knoppen */
-    transition: background-color 0.3s; /* Vloeiende kleurovergang bij hover */
-}
-
-/* Stijl voor navigatiemenuknoppen bij hover */
-nav a.button:hover {
-    background-color: #005b8a;
 }
