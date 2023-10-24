@@ -95,3 +95,19 @@ a:hover {
   text-decoration: none;
   display: block;
 }
+/* Stijl voor de navigatiemenuknoppen */
+nav a.button {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px; /* Marge tussen knoppen */
+    transition: background-color 0.3s; /* Vloeiende kleurovergang bij hover */
+}
+
+/* Stijl voor navigatiemenuknoppen bij hover */
+nav a.button:hover {
+    background-color: #005b8a;
+}
