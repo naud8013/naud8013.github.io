@@ -1,38 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mijn Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Styling for the dropdown menu */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Style for the dropdown links */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: MediumBlue;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#" index.html="button">ome</a></li>
-                <li><a href="#" class="button">Over ons</a></li>
-                <li><a href="#" class="button">Diensten</a></li>
-                <li><a href="#" class="button">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="main-content">
-        <h1>Welkom op mijn website</h1>
-        <p>Dit is de hoofdinhoud van de site.</p>
-        <a href="#" class="button">Lees meer</a>
+
+<div class="dropdown">
+    <span>Dropdown</span>
+    <div class="dropdown-content">
+         <a href="index.html">Homepage</a>
+        <a href="3-lagenmodel.html">3-lagenmodel</a>
+        <a href="computerwerking.html">computerwerking</a>
+         <a href="uitlegvideo.html">uitlegvideo</a>
     </div>
-    <div class="dropdown-container">
-        <input type="checkbox" id="menuToggle" class="menu-toggle">
-        <label for="menuToggle" class="dropdown-toggle">Menu</label>
-        <ul class="dropdown-list">
-            <li class="dropdown-item"><a href="#">Optie 1</a></li>
-            <li class="dropdown-item"><a href="#">Optie 2</a></li>
-            <li class="dropdown-item"><a href="#">Optie 3</a></li>
-        </ul>
-    </div>
-</body>
-</html>
    
        
      <h1 style="background-color:rgb(255, 240, 30);">Door Naud Van Den Bergen HAVO5</h1>
