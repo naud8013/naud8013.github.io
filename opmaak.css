@@ -1,97 +1,60 @@
-/* Resetten van standaardmarges en padding */
 body, h1, h2, p, ul, li {
   margin: 0;
   padding: 0;
 }
 
-/* dit is mijn achtergrondkleur van mijn site */
+/* Dit is mijn achtergrondkleur van mijn site */
 body {
   background-color: MediumBlue;
   font-family: Arial, sans-serif;
 }
 
-/* en dit is mijn lettertype kleur */
+/* En dit is mijn lettertype kleur */
 header {
   background-color: #333;
   color: #fff;
   padding: 10px 0;
 }
 
-/* stijl de navigatiebalk */
-nav {
-  background-color: MediumBlue;
+/* Stijl voor de navigatiemenuknoppen */
+nav a.button {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px; /* Marge tussen knoppen */
+    transition: background-color 0.3s; /* Vloeiende kleurovergang bij hover */
+    display: inline-block;
+    position: relative;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+/* Stijl voor navigatiemenuknoppen bij hover */
+nav a.button:hover {
+    background-color: #005b8a;
 }
 
-nav li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-}
-
-/* Stijl de hoofdinhoud */
-.main-content {
-  max-width: 800px;
-  margin: 20px auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Stijl koppelingen */
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Stijl knoppen */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #0077b6;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #005b8a;
-}
-
+/* Stijl voor de dropdown-container */
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
+/* Stijl voor de dropdown-content */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left;
+    top: 100%;
+    left: 0;
 }
 
+/* Stijl voor de dropdown-content bij hover */
 .dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-item {
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    display: block;
 }
