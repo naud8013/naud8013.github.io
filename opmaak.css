@@ -41,7 +41,7 @@ nav a {
 .main-content {
   max-width: 800px;
   margin: 20px auto;
-  background-color: #fff;
+  background-color: #ed1515;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(252, 4, 207, 0.1);
@@ -80,9 +80,9 @@ a:hover {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #27f00c;
   min-width: 160px;
-  box-shadow: 0 4px 8px 0 rgba(28, 108, 227, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(8, 89, 210, 0.995)
   z-index: 1;
 }
 
