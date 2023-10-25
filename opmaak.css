@@ -13,7 +13,7 @@ body {
 /* Stijl de header */
 header {
   background-color: blue;
-  color: #fff;
+  color: #4d06f3;
   padding: 10px 0;
 }
 
@@ -34,7 +34,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: #f77e0e;
 }
 
 /* Stijl de hoofdinhoud */
@@ -44,7 +44,7 @@ nav a {
   background-color: #ed1515;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(252, 4, 207, 0.1);
+  box-shadow: 0 0 10px rgb(216, 14, 179);
 }
 
 /* Stijl koppelingen */
