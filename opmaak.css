@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* Stel de achtergrondkleur in */
 body {
-  background-color: DodgerBlue;
+  background-color: Blue;
   font-family: Arial, sans-serif;
 }
 
@@ -19,7 +19,7 @@ header {
 
 /* Stijl de navigatiebalk */
 nav {
-  background-color: Tomato;
+  background-color: rebeccapurple;
 }
 
 nav ul {
