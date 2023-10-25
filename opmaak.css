@@ -62,7 +62,7 @@ a:hover {
   display: inline-block;
   padding: 10px 20px;
   background-color: #0077b6;
-  color: #fff;
+  color: #1595da;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -82,7 +82,7 @@ a:hover {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(28, 108, 227, 0.2);
   z-index: 1;
 }
 
